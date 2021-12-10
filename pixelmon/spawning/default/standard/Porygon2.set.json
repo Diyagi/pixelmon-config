@@ -1,0 +1,26 @@
+{
+  "id": "Porygon2",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Porygon2",
+        "form": 114
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "dimensions": [
+          "72"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}
