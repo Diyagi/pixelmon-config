@@ -1,13 +1,13 @@
 .mixin.out/
+*.jar
+*.log
 .forge-installed-1.12.2-14.23.5.2854
+.forge-installed-1.12.2-14.23.5.2859
 banned-ips.json
 banned-players.json
 eula.txt
-forge-1.12.2-14.23.5.2854-installer.jar.log
-forge-1.12.2-14.23.5.2854.jar
 libraries/
 logs/
-minecraft_server.1.12.2.jar
 mods/
 ops.json
 pixelc.dat
