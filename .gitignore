@@ -1,8 +1,8 @@
 .mixin.out/
 *.jar
 *.log
-.forge-installed-1.12.2-14.23.5.2854
-.forge-installed-1.12.2-14.23.5.2859
+.forge-installed-*
+crash-reports/
 banned-ips.json
 banned-players.json
 eula.txt
