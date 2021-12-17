@@ -20,7 +20,7 @@ Battle {
     # Whether Pay Day will award extra PokéDollars when used.
     allowPayDay=true
     # Determines if player vs. player battles give Pokémon experience. No EXP gain in PvP when false.
-    allowPvPExperience=true
+    allowPvPExperience=false
     # Determines if player vs. Trainer battles give Pokémon experience. No EXP gain in Trainer when false.
     allowTrainerExperience=true
     # Catch combo exp bonuses per threshold.
@@ -324,7 +324,7 @@ General {
     # If true, must be opped to use spawners. If false, must be in Creative mode.
     spawnersOpOnly=true
     # Lets you choose to give/not give a starter to a player on join (via the Pixelmon starter screen).
-    starterOnJoin=true
+    starterOnJoin=false
     # Whether TMs, HMs, and TRs can be used regardless of generation if the Pokémon has it in their base stats somewhere.
     superUniversalTMs=false
     # The time taken before syncing to the system clock (in seconds).
@@ -685,9 +685,9 @@ Spawning {
     # The maximum distance from the player that entities may spawn.
     maximumDistanceFromCentre=64
     # The maximum number of Flying Pokémon that can be naturally spawned in at once (soft limit). This does not count fishing, external moves, commands, or legendary spawning.
-    maximumSpawnedFlyingPokemon=500
+    maximumSpawnedFlyingPokemon=200
     # The maximum number of Flying Pokémon that can spawn per player. Lower for better performance.
-    maximumSpawnedFlyingPokemonPerPlayer=45
+    maximumSpawnedFlyingPokemonPerPlayer=5
     # The maximum number of Pokémon that can be naturally spawned in at once (soft limit). This does not count fishing, external moves, commands, or legendary spawning.
     maximumSpawnedPokemon=3000
     # Chance for a Meltan to spawn when smelting a metal ore block. 1/x
